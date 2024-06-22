@@ -1,0 +1,20 @@
+**Objects and Their Internal Representation in JavaScript
+    # Relies heavily on the objects to store, manage, and manipulate data.
+    # it represent everything from simple data structure to complex components and the entities.
+    # obeject is a collection of key-value pairs
+    # Where each key is a string or symbol and each value can be of any type primitive values, other object and etc,...
+
+They are different way to create Object in JavaScript
+    For Example
+            Using Constructor
+                const person = new object();
+                person.name = "kumar";
+                person.age = 25;
+                Etc,.....
+                
+            Without Constructor
+                const person = {
+                    name: "Kumar",
+                    age: 20;
+                    ect,...
+                }

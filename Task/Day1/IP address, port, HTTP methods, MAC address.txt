@@ -1,0 +1,42 @@
+**IP Addresses, ports, HTTP Menthods, and MAC Addresses**
+        Networking is a foundational aspect of modern computing, enabling devices to communicate and share resources.
+        Key concepts in this realm include IP addresses, ports, HTTP methods, and MAC addresses
+
+    *IP Addresses (Internal Protocol)
+            its unique identifier assigned to each device connected to a network.
+            It allows devices to locate and communicate with each other over the internet,
+            and local network.
+        Types of IP Addresses
+          1.IPv4: Are 32-bit numbers it is represented in the decimal format
+            as four octets separated by dot (192.654.6.8)
+          2.IPv6: Are 128-bit addresses and its is represented hexadecimal format 
+            and its separated by colons (2002:0dh9:85k4:0000:ect,...)
+    *Port
+            It is a logical construct that identifies a specific process.
+            Combination with an IP address to manage multiple connections simultaneously.
+        They are categorized by
+                Well-Known Ports (0-1023)
+                Registered Ports (1024-49151)
+                Dynamic or Private Ports (49152-650535)
+        when it has default port is (HTTP is 80) (HTTPS is 443)
+    
+    *HTTP methods (HyperText Transfer Protocol)
+            In this methods are actions that indicate the desired action to be performed on a given resource.
+            These methods, also known as HTTP verbs
+        HTTP Verbs
+            1. GET-Retrieve the data from a server.
+            2. POS-Send data to the srver to create a new resource. 
+            3. PUT-Updateing the existing resource.
+            4. DELETE-Remove the resource from the server.
+            5. PATCH-Apply partial modification to resource.
+    *MAC Address(Media Access control)
+           MAC address is a hardware identifier that uniquely identifies each device on a network.
+           it is composed six groups two hexadecimal digits and separated by colon or hyphen
+           Example: (00:1A:2B:3C:4D:5E)
+        USAGE
+            used in the data link layer of the OSI model.
+            its ensuring the data delivered to the correct hardware device.
+            
+
+
+            

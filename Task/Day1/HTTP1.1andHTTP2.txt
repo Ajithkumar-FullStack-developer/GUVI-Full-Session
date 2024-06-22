@@ -1,0 +1,36 @@
+**HTTP1.1 and HTTP2**
+    HTTP- as a Hypertext Transfer Protocol.
+    The protocol that govern how the information is transmitted between server and cilent.
+ 
+    Different between HTTP1.1 and HTTP2
+
+ **HTTP1.1 While revolutionary at the time,
+         HTTP/1.1 has certain limitations that become more apparent as web applications grow in complexity and size.
+
+    HTTP1.1 Key Characteristics 
+
+        1. sequentail Request
+            Each request and response is handling sequentailly, like a HTML and CSS,
+            it must establish multiple connections, leading to potential inefficiencies.
+        2. Compression
+            it must support Compression of response data like a ZIP,
+            it can lead additional overhead and dealing with large number of small resource
+        3. No Multiplexing
+            This is one of the biggest limitation of HTTP11.1 
+            and its lacks the multiplex multiple request and response over th single (TCP) connections
+        4. Header Overhead
+            This redundancy can consume bandwidth unnecessarily, especially for small requests.
+ **HTTP2 It aims to address these shortcomings while maintaining compatibility with existing web infrastructure.
+          developed and standardized by the IETF in 2015.
+    HTTP2 Key improvements
+
+        1. Multiplexing
+            Its allows multiple request and multiple response, send and received concurrently over single TCP connection.
+            This significantly reduces latency and improves page load times, especially on complex websites.
+        2.Header Compression
+            This helps conserve bandwidth and speeds up data transmission and particularly beneficial for mobile users.
+        3. Binary Protocol
+            HTTP2 is Binary protocol 
+            This simplifies parsing, reduces errors, and improves performance.
+        4. Server Push
+            This allows servers to proactively send resources to the client before they are explicitly requested.
