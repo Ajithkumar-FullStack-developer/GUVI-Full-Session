@@ -1,0 +1,36 @@
+/*
+WINDOW OBJECT:
+
+window object is a global object its have different propertys like name, location, document.,etc.
+its reperasent the whole browser window its manage browser related funtionalities and manage navigation, histroy, locations and more,
+window object indirectly access to document object and provide access to the related to browser properties and methods,
+its declared funtions and varialbles without "var, let, const"
+
+
+DOCUMENT OBJECT:
+
+Document Object contain single HTML Document and its primarily deals with structure and content os HTML page.
+the object to access and muniplate HTML element with the document 
+Menthods like a "querySelector, getElementByClassName".
+document object only context within the window object
+it does not change unless modified dynamically in js
+
+*/
+
+KEY differences
+
+1.Scope and purpose
+
+Document-Represents the content of the web page loaded in the window and provides methods to interact with it.
+window- Represents the entire browser window and provides methods to control it.
+
+2. Global nature
+
+Document-A property of the window object that specifically deals with the HTML document.
+window-The top-level object in the browser's JavaScript environment. Any global variables or functions declared in your JavaScript code are properties of the window object.
+
+3. Menthods and properties
+
+document-contains methods and properties for accessing and modifying the HTML content, structure, and style.
+window-contains methods and properties related to the browser window, such as opening new windows, navigating, and interacting with the browser's history and screen.
+
