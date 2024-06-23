@@ -15,7 +15,7 @@
             It is a logical construct that identifies a specific process.
             Combination with an IP address to manage multiple connections simultaneously.
         They are categorized by
-                Well-Known Ports (0-1023)
+               Well-Known Ports (0-1023)
                 Registered Ports (1024-49151)
                 Dynamic or Private Ports (49152-650535)
         when it has default port is (HTTP is 80) (HTTPS is 443)
@@ -36,7 +36,7 @@
         USAGE
             used in the data link layer of the OSI model.
             its ensuring the data delivered to the correct hardware device.
-            
+
 
 
             
