@@ -7,8 +7,18 @@
  *      3. Length - the number of element inside the array
  *      4. protottypal chain -will have the collection of all the properties and menber function available in the array
  */
-
+/**
+***hear using non-primities data type***
 var scores = [1, 2, 3, 4, 5];
 var scoresDuplicate = scores;
 scores.push(6);
 console.log(scores, scoresDuplicate);
+
+
+***hear using primities data type**
+var age = 20;
+age +=2;
+console.log(age);
+*/
+
+
