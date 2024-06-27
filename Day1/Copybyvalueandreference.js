@@ -19,6 +19,30 @@ console.log(scores, scoresDuplicate);
 var age = 20;
 age +=2;
 console.log(age);
+
+
+*****
+* Object is a datatype in javascript
+* its store the values in key values pairs
+* we can access the values in DOT or ['']
+* it is a non-primitive data type
+
+var data = {
+name: "kumar",
+age: 27, 
+};
+var datacopy = data;
+console.log(datacopy);
+
+***after update the age code is 
+var data = {
+name: "kumar",
+age: 27, 
+};
+var datacopy = data;
+data.age = 29;
+console.log(datacopy, data);
+
+
+
 */
-
-
