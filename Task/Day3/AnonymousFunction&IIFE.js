@@ -88,3 +88,10 @@ let sumArray = function(arr) {
 
 console.log(sumArray([1, 2, 3, 4, 5]));
 
+//IIFE
+
+(function(arr) {
+    let sum = arr.reduce((acc, curr) => acc + curr, 0);
+    console.log(sum);
+})([1, 2, 3, 4, 5]);
+
